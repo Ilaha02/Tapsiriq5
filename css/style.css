@@ -1,0 +1,81 @@
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #ccc;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.contianer {
+    width: 40rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.screen{
+display: flex;
+width: 120%;
+height: 8rem;
+justify-content: flex-end;
+align-items: center;
+background: black;
+color: white;
+font-size: 7rem;
+}
+
+.buttons{
+  height: 120%;
+}
+
+.btn{
+  width: 25%;
+  height: 10rem;
+  border: 0.5px solid black;
+  font-size: 6rem;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  background:  #b8b4b0;
+  transition: 0.5s;
+}
+
+.btn-func{
+  color: #ffffff;
+  background-color: #df974c;
+  transition: 0.5s;
+}
+
+.row{
+  width: 120%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn:hover{
+  transition: 0.5s;
+background-color: #ebebeb;
+}
+
+.btn:active{
+background-color:  #bbbcbe;
+}
+
+.btn-func:hover{
+  transition: 0.5s; 
+background-color: #dfb07e;
+}
+
+.btn-func:active{
+  transition: 0.5s;
+background-color: #dd8d37;
+}
